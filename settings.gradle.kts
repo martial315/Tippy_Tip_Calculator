@@ -13,6 +13,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Tippy"
+rootProject.name = "Tippy - The Tipping Calculator"
 include(":app")
  

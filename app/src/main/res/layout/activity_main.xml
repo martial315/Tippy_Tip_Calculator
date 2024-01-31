@@ -18,7 +18,7 @@
         android:text="Base"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/tvTitle" />
 
     <TextView
         android:id="@+id/tvTipPercent"
@@ -146,5 +146,17 @@
         app:layout_constraintBottom_toBottomOf="@+id/tvSplitLabel"
         app:layout_constraintStart_toStartOf="@+id/tvTotalAmount"
         app:layout_constraintTop_toTopOf="@+id/tvSplitLabel" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#A3CCEF"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="175dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

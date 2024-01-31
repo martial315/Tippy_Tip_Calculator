@@ -1,4 +1,4 @@
-package com.example.tippy
+package com.rusticvalleyproperties.tippy_tipping_calculator
 
 import android.animation.ArgbEvaluator
 import androidx.appcompat.app.AppCompatActivity
@@ -11,7 +11,7 @@ import android.widget.SeekBar
 import android.widget.TextView
 import androidx.core.content.ContextCompat
 
-private const val TAG = "MainActivity"
+    private const val TAG = "MainActivity"
 private const val INITIAL_TIP_PERCENT = 15
 private const val INITIAL_SPLIT = 1
 

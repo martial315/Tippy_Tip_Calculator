@@ -1,4 +1,4 @@
-package com.example.tippy
+package com.rusticvalleyproperties.tippy_tipping_calculator
 
 import org.junit.Test
 

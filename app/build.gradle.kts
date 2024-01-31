@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.tippy"
+    namespace = "com.rusticvalleyproperties.tippy_tipping_calculator"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.tippy"
+        applicationId = "com.rusticvalleyproperties.tippy_tipping_calculator"
         minSdk = 27
         targetSdk = 34
         versionCode = 1
